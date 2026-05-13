@@ -1,0 +1,58 @@
+[
+  {
+    "id": "baseline-plan",
+    "title": "Plan before broad edits",
+    "body": "Use /plan to discuss approach and implementation details before making a risky or broad code change.",
+    "category": "Commands",
+    "tags": ["planning", "workflow", "slash-command"],
+    "shortcut": "/plan",
+    "sourceURL": "https://code.claude.com/docs/en/commands",
+    "sourceType": "official",
+    "version": null,
+    "publishedAt": null,
+    "createdAt": "2026-05-11T00:00:00Z",
+    "updatedAt": "2026-05-11T00:00:00Z"
+  },
+  {
+    "id": "baseline-clear",
+    "title": "Start a fresh context",
+    "body": "Use /clear when the current session context is stale or you want Claude Code to stop carrying prior conversation state.",
+    "category": "Commands",
+    "tags": ["context", "slash-command"],
+    "shortcut": "/clear",
+    "sourceURL": "https://code.claude.com/docs/en/commands",
+    "sourceType": "official",
+    "version": null,
+    "publishedAt": null,
+    "createdAt": "2026-05-11T00:00:00Z",
+    "updatedAt": "2026-05-11T00:00:00Z"
+  },
+  {
+    "id": "baseline-keybindings",
+    "title": "Customize keyboard shortcuts",
+    "body": "Run /keybindings to create or open ~/.claude/keybindings.json and customize Claude Code shortcuts.",
+    "category": "Commands",
+    "tags": ["keyboard", "configuration"],
+    "shortcut": "/keybindings",
+    "sourceURL": "https://code.claude.com/docs/en/keybindings",
+    "sourceType": "official",
+    "version": null,
+    "publishedAt": null,
+    "createdAt": "2026-05-11T00:00:00Z",
+    "updatedAt": "2026-05-11T00:00:00Z"
+  },
+  {
+    "id": "baseline-transcript",
+    "title": "Search transcript view",
+    "body": "In transcript mode, press / to search and use n or N to move through matches.",
+    "category": "Keyboard",
+    "tags": ["transcript", "keyboard", "search"],
+    "shortcut": "/, n, N",
+    "sourceURL": "https://code.claude.com/docs/en/changelog",
+    "sourceType": "official",
+    "version": "2.1.83",
+    "publishedAt": "2026-03-25T00:00:00Z",
+    "createdAt": "2026-05-11T00:00:00Z",
+    "updatedAt": "2026-05-11T00:00:00Z"
+  }
+]
