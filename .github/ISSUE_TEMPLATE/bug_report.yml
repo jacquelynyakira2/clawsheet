@@ -1,0 +1,36 @@
+name: Bug report
+description: Report something that is broken or confusing.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the exact steps someone can follow to see the issue.
+      placeholder: |
+        1. Open the menu bar app
+        2. Search for ...
+        3. Click ...
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include macOS version, app version/commit, and how you launched the app.
+      placeholder: macOS 15.x, Swift Package run, commit SHA...
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or logs
+      description: Add screenshots or logs if they help explain the issue.
+

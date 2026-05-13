@@ -1,0 +1,8 @@
+* @jacquelynyakira2
+
+# App permissions, source ingestion, persistence, and parser changes deserve careful review.
+ClaudeCodeHelper.entitlements @jacquelynyakira2
+Sources/ClaudeCodeHelperCore/RefreshService.swift @jacquelynyakira2
+Sources/ClaudeCodeHelperCore/MarkdownParsers.swift @jacquelynyakira2
+Sources/ClaudeCodeHelperCore/SQLiteStore.swift @jacquelynyakira2
+
